@@ -20,7 +20,7 @@ PyYAML==5.4
 Pygments==2.7.4
 Sphinx==1.2.1
 numpy==1.8.0
-py==1.4.19
+py==1.10.0
 pytest-cache==1.0
 pytest==2.5.1
 python-dateutil==2.2
