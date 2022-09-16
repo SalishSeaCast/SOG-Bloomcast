@@ -6,7 +6,7 @@
 
 arrow==0.4.2
 Jinja2==2.11.3
-Mako==0.9.1
+Mako==1.2.2
 MarkupSafe==0.18
 beautifulsoup4==4.3.2
 docutils==0.11
