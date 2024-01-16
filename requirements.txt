@@ -1,28 +1,85 @@
 # Python packages and their versions required for the SoG-bloomcast
 # development environment
 #
-# :command:`pip install -r requirements.txt` should install these
-# in a new virtualenv
+# 
+# mamba create -n sog-bloomcast python=3.12 arrow beautifulsoup4 mako \
+#   matplotlib numpy pyyaml requests ipython sphinx pytest six\
+# conda activate sog-bloomcast
+# python -m pip install -e .
+#
+# should create a conda environment with the necessary packages installed
 
-arrow==0.4.2
+alabaster==0.7.16
+arrow==1.3.0
+asttokens==2.4.1
+Babel==2.14.0
+beautifulsoup4==4.12.2
+Brotli==1.1.0
+certifi==2023.11.17
+charset-normalizer==3.3.2
+colorama==0.4.6
+contourpy==1.2.0
+cycler==0.12.1
+decorator==5.1.1
+docutils==0.20.1
+exceptiongroup==1.2.0
+executing==2.0.1
+fonttools==4.47.2
+idna==3.6
+imagesize==1.4.1
+importlib-metadata==7.0.1
+iniconfig==2.0.0
+ipython==8.20.0
+jedi==0.19.1
 Jinja2==3.1.3
-Mako==1.2.2
-MarkupSafe==0.18
-beautifulsoup4==4.3.2
-docutils==0.11
-execnet==1.1
-ipython==8.10.0
-
-# on sable, symlink matplotlib, dateutil & pytz from pymodules
-matplotlib==1.3.1
-
-PyYAML==5.4
-Pygments==2.15.0
-Sphinx==1.2.1
-numpy==1.22.0
-py==1.10.0
-pytest-cache==1.0
-pytest==2.5.1
-python-dateutil==2.2
-requests==2.2.0
-six==1.5.2
+kiwisolver==1.4.5
+Mako==1.3.0
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+munkres==1.1.4
+numpy==1.26.3
+packaging==23.2
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+pillow==10.2.0
+pip==23.3.2
+pluggy==1.3.0
+ply==3.11
+prompt-toolkit==3.0.42
+ptyprocess==0.7.0
+pure-eval==0.2.2
+Pygments==2.17.2
+pyparsing==3.1.1
+PyQt5==5.15.9
+PyQt5-sip==12.12.2
+PySocks==1.7.1
+pytest==7.4.4
+python-dateutil==2.8.2
+pytz==2023.3.post1
+PyYAML==6.0.1
+requests==2.31.0
+setuptools==69.0.3
+sip==6.7.12
+six==1.16.0
+snowballstemmer==2.2.0
+soupsieve==2.5
+Sphinx==7.2.6
+sphinxcontrib-applehelp==1.0.8
+sphinxcontrib-devhelp==1.0.6
+sphinxcontrib-htmlhelp==2.0.5
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.7
+sphinxcontrib-serializinghtml==1.1.10
+stack-data==0.6.2
+toml==0.10.2
+tomli==2.0.1
+tornado==6.3.3
+traitlets==5.14.1
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+urllib3==2.1.0
+wcwidth==0.2.13
+wheel==0.42.0
+zipp==3.17.0
