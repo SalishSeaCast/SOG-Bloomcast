@@ -25,7 +25,7 @@ docutils==0.20.1
 exceptiongroup==1.2.0
 executing==2.0.1
 fonttools==4.47.2
-idna==3.6
+idna==3.7
 imagesize==1.4.1
 importlib-metadata==7.0.1
 iniconfig==2.0.0
