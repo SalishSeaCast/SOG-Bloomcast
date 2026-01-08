@@ -79,7 +79,7 @@ tornado==6.5.1
 traitlets==5.14.1
 types-python-dateutil==2.8.19.20240106
 typing_extensions==4.9.0
-urllib3==2.6.0
+urllib3==2.6.3
 wcwidth==0.2.13
 wheel==0.42.0
 zipp==3.19.1
