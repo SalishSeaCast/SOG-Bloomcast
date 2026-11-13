@@ -64,7 +64,7 @@ setuptools==84.1.0
 sip==6.7.12
 six==1.16.0
 snowballstemmer==2.2.0
-soupsieve==2.9
+soupsieve==4.0
 Sphinx==7.2.6
 sphinxcontrib-applehelp==1.0.8
 sphinxcontrib-devhelp==1.0.6
